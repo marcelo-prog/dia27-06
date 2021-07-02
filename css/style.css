@@ -34,7 +34,7 @@ nav{
 section{
     float:left;
     width:15%;
-    height:400px;
+    height:1200px;
     background-color:rgb(180, 180, 180);
   
 }
@@ -42,15 +42,36 @@ section{
 article{
     float:left;
     width:70%;
-    height:400px;
+    height:1200px;
     background-color: rgb(180, 180, 180);
     
+}
+
+.teste1,.teste2,.teste3{
+    width:300px;
+    height:300px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top: 30px;
+    background-color: red;
+}
+
+.teste2{
+    background-color: blue;
+}
+
+.teste3{
+    background-color: blueviolet;
+}
+
+.teste1:active{
+     background-color: rgb(114, 11, 11);
 }
 
 aside{
     float:left;
     width:15%;
-    height:400px;
+    height:1200px;
     background-color: rgb(180, 180, 180);
 }
 
